@@ -1,3 +1,7 @@
+Motivation: 
+
+It has been emphasized in the literature that effects of mutation protein-protein interaction networks shed light on the molecular basis of diseases, which in turn can appraise methods for diagnosis and treatment. Hence, detecting effect of mutation PPIs is crucial. In this study, first, we analyze the recently proposed tools for predicting the effects of mutations on protein and protein-protein interactions and we process nearly 120.000 cancer patient’s mutation information on recently proposed tool by which named as ELASPIC. We get mainly predicted change in mutation’s Gibbs free energy (ΔΔG) of folding and/or binding for every domain interface affected by the mutation and we try to find a relationship between the effect of mutation and ΔΔG by matching the experimental results. Finally, we train a random forest classifier machine learning model with ELASPIC all results which includes 76 different features of mutations and proteins and we get mean 0.921 and our predictor importance results show that molecular features of PPIs effect most to our accuracy.
+
 Files:
 
 Data:
